@@ -11,7 +11,7 @@
   "launch": {
     "name": "Mail.ru Tests",
     "description": "[this is description]",
-    "debugMode": false,
+    "debugMode": true,
     "attributes": [ "t1", "t2", "platform:x64" ]
   }
 }
