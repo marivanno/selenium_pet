@@ -9,6 +9,7 @@ public class ChromeBrowser : BrowserType
     {
         var service = ChromeDriverService.CreateDefaultService();
         var option = new ChromeOptions();
+        /*option.AddArguments("headless");*/
         _driver = new ChromeDriver(service, option);
         return _driver;
     }
