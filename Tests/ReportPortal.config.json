@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-nunit/master/src/ReportPortal.NUnitExtension/ReportPortal.config.schema",
-  "enabled": false,
+  "enabled": true,
   "server": {
     "url": "http://20.121.21.70:8080/api/v1/",
     "project": "test_pet_proj",
@@ -11,7 +11,7 @@
   "launch": {
     "name": "Mail.ru Tests",
     "description": "[this is description]",
-    "debugMode": true,
+    "debugMode": false,
     "attributes": [ "t1", "t2", "platform:x64" ]
   }
 }
