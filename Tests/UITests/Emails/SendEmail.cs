@@ -11,7 +11,6 @@ using PersonalAreaPage = Businesslogic.Pages.PersonalAreaPage;
 namespace Tests.UITests.Emails;
 
 [TestFixture]
-[Parallelizable(ParallelScope.Fixtures)]
 public class SendEmailTests : BaseUITest
 {
     private User _user;

@@ -10,7 +10,6 @@ using PersonalAreaPage = Businesslogic.Pages.PersonalAreaPage;
 namespace Tests.UITests.Emails;
 
 [TestFixture]
-[Parallelizable(ParallelScope.Fixtures)]
 public class WriteAndSaveEmailInDraftFolderTest : BaseUITest
 {
     private PersonalAreaPage _personalAreaPage;
